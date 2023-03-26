@@ -1,3 +1,4 @@
+
 require("rutger.remap")
-require("rutger.packer")
+require("rutger.lazy")
 require("rutger.set")
