@@ -13,6 +13,10 @@ vim.keymap.set("n", "J", "mzJ`z")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+-- tab support
+vim.keymap.set("n", "`l", ":tabnext<CR>")
+vim.keymap.set("n", "`h", ":tabprevious<CR>")
+vim.keymap.set("n", "`n", ":tabnew<CR>")
 
 -- Keep cursor in middle while scrolling
 vim.keymap.set("n", "<C-d>", "<C-d>zz")

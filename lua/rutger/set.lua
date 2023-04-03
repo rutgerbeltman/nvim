@@ -1,5 +1,4 @@
-
- -- [[ Setting options ]]
+-- [[ Setting options ]]
 -- See `:help vim.o`
 
 -- Set highlight on search
@@ -11,7 +10,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 -- Enable mouse mode
-vim.opt.mouse = 'a'
+vim.opt.mouse = ''
 
 -- Sync lipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.
